@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Hunger-caterpillar</title>
+    <link rel="stylesheet" type="text/css" href="./src/main.css">
 </head>
 <body>
+    <header>
+        <h1>Hungry Caterpillar</h1>
+    </header>
+
+    <h2>Feed him fruit!</h2>
     
+<section>
+    <button id="apple-fruit" class="fruit" value="apple">
+        <img src="./assets/apple.png">
+    </button>
+    <button id= "banana-fruit" class="fruit" value="banana">
+        <img src="./assets/banana.png">
+    </button>
+    <button id="blueberry-fruit" class="fruit" value="blueberry">
+        <img src="./assets/blueberry.png">
+    </button>
+    <button id="green-apple-fruit" class="fruit" value="green-apple">
+        <img src="./assets/green-apple.png">
+    </button>
+    <button id="mango-fruit" class="fruit" value="mango">
+        <img src="./assets/mango.png">
+    </button>
+    <button id="orange-fruit" class="fruit" value="orange">
+        <img src="./assets/orange.png">
+    </button>
+</section>
+
+<section id="caterpillar">
+    <img class="head" src="./assets/caterpillar-face.jpg">
+</section>
+
+<h2>Make him dance!</h2>
+
+<section id="Dancing-buttons">
+    <button class="dancing Apple" value="apple"></button>
+    <button class="dancing Banana" value="banana"></button>
+    <button class="dancing Blueberry" value="blueberry"></button>
+    <button class="dancing Green-apple" value="green-apple"></button>
+    <button class="dancing Mango" value="mango"></button>
+    <button class="dancing Orange" value="orange"></button>
+</section>
+    
+<section id=reset-button>
+    <h2>Go back and feed it something else!</h2>
+    <button class="reset" value="text">Remove</button>
+</section>
+    <script type="module" src="./src/index.js"></script>
 </body>
 </html>

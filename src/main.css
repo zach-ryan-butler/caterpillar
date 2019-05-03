@@ -1,0 +1,135 @@
+body {
+    text-align: center;
+}
+
+header {
+    padding: 10px;
+    color: #1abc9c;
+    font-size: 1.8em;
+}
+
+button.fruit {
+    width: 60px;
+    height: 60px;
+    margin-right: 50px;
+    border-radius: 100%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.fruit img {
+    height: 40px;
+}
+
+section {
+    margin: 30px 0;
+}
+
+#apple-fruit {
+    border: 2px solid white;
+}
+#banana-fruit {
+    border: 2px solid white;
+}
+#blueberry-fruit {
+    border: 2px solid white;
+}
+#green-apple-fruit {
+    border: 2px solid white;
+}
+#mango-fruit {
+    border: 2px solid white;
+}
+#orange-fruit {
+    border: 2px solid white;
+}
+
+.head {
+    height: 250px;
+    margin-right: -10px;
+    
+}
+
+.part {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-left: -12px;
+    margin-bottom: 15px;
+    background-color: yellow;
+    transition: transform 1s;
+}
+
+.apple {
+    border: 30px solid red;
+}
+
+.banana {
+    border: 30px solid yellowgreen;
+}
+
+.blueberry {
+    border: 30px solid blue;
+}
+
+.green-apple {
+    border: 30px solid green;
+}
+
+.mango {
+    border: 30px solid rgb(231, 180, 12);
+}
+
+.orange {
+    border: 30px solid orange;
+}
+
+.Apple {
+    border: 30px solid red;
+}
+
+.Banana {
+    border: 30px solid yellowgreen;
+}
+
+.Blueberry {
+    border: 30px solid blue;
+}
+
+.Green-apple {
+    border: 30px solid green;
+}
+
+.Mango {
+    border: 30px solid rgb(231, 180, 12);
+}
+
+.Orange {
+    border: 30px solid orange;
+}
+
+.dance {
+    transform: translate(0, -30px);
+    position: relative;
+}
+
+.dancing {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: yellow;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.reset {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: 1.2em;
+    border: 1px solid red;
+}
+
